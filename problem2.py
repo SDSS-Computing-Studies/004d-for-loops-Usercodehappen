@@ -42,7 +42,7 @@ y = 1
 strx = str(x)
 
 for i in range(1,x+1):
-    y = y*
+    y = y
 stry = str(y)
 print(strx + "! is" + stry)
     
