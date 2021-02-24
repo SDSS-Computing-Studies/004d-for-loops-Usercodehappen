@@ -37,12 +37,12 @@ example:
 Enter a number: -4
 Invalid input
 """
-x = int(input("Enter a number: "))
-y = 1 
-strx = str(x)
+a = input("Enter a number: ").strip()
+a = int(a)
+b = 0
+c = 1
+for i in range(0,a):
+    b = a - i
+    c = b * c
 
-for i in range(1,x+1):
-    y = y
-stry = str(y)
-print(strx + "! is" + stry)
-    
+print(str(a)+"! is "+str(c) +" where "+str(a)+" is the integer entered and " +str(c)+ " is the calculated answer")
